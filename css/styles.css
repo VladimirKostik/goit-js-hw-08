@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+}
+
+.gallery {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 16px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    object-fit: cover;
+    width: 360px;
+    height: 200px;
+    border: none;
+
+}
+
+.gallery-item:hover {
+    border: 1px solid blue;
+}
+
+.modal {
+    background-color: aliceblue;
+    padding: 24px;
+
+}
